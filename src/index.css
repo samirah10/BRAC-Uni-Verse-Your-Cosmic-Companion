@@ -1,0 +1,22 @@
+/* 
+.list-group-item.active {
+    background-color: grey !important;
+    color: white; 
+    border-color: grey !important; 
+  }
+   */
+  .list-group-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f0; /* Highlight color when hovering */
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff; /* Active item color */
+    color: white;
+  }
+  
